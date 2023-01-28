@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+project( CompVision)
+find_package(wxWidgets REQUIRED)
+find_package(OpenCV REQUIRED)
+include(${wxWidgets_USE_FILE})
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable( CompVision CompVision.cpp)
+target_link_libraries(CompVision ${wxWidgets_LIBRARIES})
+target_link_libraries(CompVision ${OpenCV_LIBS})
+

@@ -1,0 +1,3 @@
+/home/ayaanle/C-CPP/CompVision/CMakeFiles/CompVision.dir
+/home/ayaanle/C-CPP/CompVision/CMakeFiles/edit_cache.dir
+/home/ayaanle/C-CPP/CompVision/CMakeFiles/rebuild_cache.dir
