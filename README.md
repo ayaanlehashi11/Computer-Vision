@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/91608871/215797693-122a1173-c99c-4cdd-
 
 
 ## Requirements
-<p> 1: debian based linux distros (e.g ubuntu , mint , kali) </p>
+<p> 1: debian based linux distro (e.g ubuntu , mint , kali) </p>
 <p> 2: opencv </p>
 <p> 3: wxwidgets </p>
 <p> 4: cmake </p>
