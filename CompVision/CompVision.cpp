@@ -2,11 +2,6 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
-#include <opencv2/video/background_segm.hpp>
-#include <opencv2/features2d.hpp>
-#include <opencv2/imgproc.hpp>
-#include <opencv2/objdetect.hpp>
-#include <wx/slider.h>
 #include <iostream>
 #include <vector>
 #include <string>
