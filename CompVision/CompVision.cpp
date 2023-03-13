@@ -75,7 +75,16 @@ public:
 		Centre();
 	}
 
-       
+public:
+    ~Frame():~wxFrame()
+    {
+       delete panel;
+       delete button1;
+       delete button2;
+       delete text;
+       delete text1;
+    }
+      
 public:  
     wxPanel* panel = new wxPanel(this);
     wxTextCtrl* text = new wxTextCtrl(panel , wxID_ANY,wxEmptyString , {100 , 170},wxSize(440 , 100),wxTE_MULTILINE);
